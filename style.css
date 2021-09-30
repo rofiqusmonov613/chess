@@ -54,10 +54,10 @@ body {
 /** ####################################### */
 
 .piece-box.white-box {
-    background-color: white;
+    background-color: rgb(255, 240, 240);
 }
 .piece-box.black-box {
-    background-color: black;
+    background-color: rgb(80, 80, 80);
 }
 .piece-box.piece-selected {
     background: linear-gradient(to right,yellow,yellowgreen);
