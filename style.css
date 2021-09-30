@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right,blue,red);
+    background-color: blue;
     margin: 0;
     padding: 0;
 }
@@ -54,10 +54,10 @@ body {
 /** ####################################### */
 
 .piece-box.white-box {
-    background: linear-gradient(to right,green,lime);
+    background-color: lime;
 }
 .piece-box.black-box {
-    background: linear-gradient(to right,red,gold);
+    background-color: red;
 }
 .piece-box.piece-selected {
     background: linear-gradient(to right,yellow,yellowgreen);
