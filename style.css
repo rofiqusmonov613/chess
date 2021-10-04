@@ -7,9 +7,11 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background: url('https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 @keyframes fadeIn {
@@ -27,7 +29,7 @@ body {
     height: 400px;
     width: 400px;
     display: flex;
-    border: 3px solid darkcyan;
+    border: 1px solid black;
 }
 .piece-box {
     width: 50px;
@@ -48,7 +50,7 @@ body {
     top: 0px;
     left: 0px;
     font-size: 16px;
-    color:  gold;
+    color:  rgb(0, 0, 0);
 }
 
 /** ####################################### */
@@ -60,18 +62,18 @@ body {
     background-color: rgb(80, 80, 80);
 }
 .piece-box.piece-selected {
-    background: linear-gradient(to right,yellow,yellowgreen);
+    background: rgb(192, 182, 182);
     cursor: pointer;
 }
 .piece-box.piece-ready {
-    background: linear-gradient(to right,skyblue,blue);
+    background: slategray;
 }
 .piece-box.piece-potential {
-    background: linear-gradient(to right,lime,yellow);
-    border: 1px solid blueviolet;
+    background: rgb(151, 150, 150);
+    border: 1px solid slategray;
 }
 .piece-box.piece-not-allowed {
-    background:linear-gradient(to right,gold,orange);
+    background-color: rgb(255, 8, 0);
 }
 .piece-box.piece-pointer {
     cursor: pointer;
